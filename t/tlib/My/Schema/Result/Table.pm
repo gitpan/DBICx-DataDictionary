@@ -1,5 +1,5 @@
 package My::Schema::Result::Table;
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use strict;
 use warnings;

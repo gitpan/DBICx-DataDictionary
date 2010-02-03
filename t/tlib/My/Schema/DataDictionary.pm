@@ -1,5 +1,5 @@
 package My::Schema::DataDictionary;
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use strict;
 use warnings;
@@ -16,5 +16,7 @@ add_type NAME => {
   is_nullable => 0,
   size        => 100,
 };
+
+add_type SHORT_NAME => NAME(size => 40);
 
 1;

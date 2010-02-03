@@ -11,7 +11,7 @@ WriteMakefile(
   NAME      => 'DBICx::DataDictionary',
   AUTHOR    => "Pedro\ Melo\ \<melo\@cpan\.org\>",
   ABSTRACT  => "Define\ a\ data\ dictionary\ to\ use\ with\ your\ DBIx\:\:Class\ Schema",
-  VERSION   => '0.001',
+  VERSION   => '0.002',
   EXE_FILES => [ qw() ],
   (eval { ExtUtils::MakeMaker->VERSION(6.31) } ? (LICENSE => 'perl') : ()),
   PREREQ_PM    => {

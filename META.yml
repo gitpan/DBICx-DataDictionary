@@ -15,4 +15,4 @@ requires:
   parent: 0
 resources:
   repository: http://github.com/melo/dbic-data-dictionary/
-version: 0.001
+version: 0.002
